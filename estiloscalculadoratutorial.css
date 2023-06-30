@@ -33,10 +33,13 @@ input[type=button], input[type=submit], input[type=reset] {
 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
   background-color: #333;
 }
-
 input[type=button]#btn-uno:hover {
   background-color: #3498DB;
 }
+
 input[type=button]#btn-cuatro:hover {
   background-color: #ff7987;
+
+input[type=button]#btn-tres:hover {
+  background-color: #FFDB58;
 }
