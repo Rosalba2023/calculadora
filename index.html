@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <LINK REL="stylesheet" TYPE="text/css" HREF="estiloscalculadoratutorial.css">
+	<LINK REL="stylesheet" TYPE="text/css" HREF="estiloscalculadoratutorial.css">
 </head>
 
 <form name="calculator">
@@ -12,8 +13,13 @@
 <input type="textfield" name="ans" value="">
 <br>
 
+
 <input type="button" value="1" onClick="document.calculator.ans.value+='1'">
 <input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+
+
+<input type="button" id="btn-uno" value="1" onClick="document.calculator.ans.value+='1'">
+<input type="button" id="dos" value="2" onClick="document.calculator.ans.value+='2'">
 
 
 <input type="button" value="3" id="tres" onClick="document.calculator.ans.value+='3'">
@@ -34,3 +40,4 @@
 <input type="button" value="/" onClick="document.calculator.ans.value+='/'">
 <input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
 </form>
+
