@@ -40,8 +40,14 @@ input[type=button]#btn-uno:hover {
   background-color: orange;
 }
 
+
+input[type=button]#tres:hover{
+background-color:red; 
+}
+
 input[type=button]#dos:hover{
-  background-color: blue; 
+  background-color: rgb(199, 8, 199); 
+
 
 }
 
