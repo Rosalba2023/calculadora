@@ -13,7 +13,7 @@ input[type=textfield] {
     font-size: 16px;
     margin: 8px 0;
     border: 1px solid silver;
-    border-radius: 1px;
+    border-radius: 5px;
     text-align: left;
     color: #333;
     background: #ccc;
@@ -28,6 +28,7 @@ input[type=button], input[type=submit], input[type=reset] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 40px;
 }
 
 
@@ -50,5 +51,6 @@ input[type=button]#btn-tres:hover{
 }
 
 input[type=button]#btn-cuatro:hover{
-  background-color:white; 
+  background-color:white;
+  color: #333;
 }
